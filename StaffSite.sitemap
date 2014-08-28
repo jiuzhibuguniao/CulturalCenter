@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="编辑员"  description="ddd">
+    <siteMapNode  title="个人信息管理"  description="个人信息管理" >
+      <siteMapNode url="~/Admin/Member/ModifyPW.aspx" title="密码修改"  description="密码修改" />
+      <siteMapNode url="~/Admin/Member/SelfInfoModify.aspx" title="个人资料修改"  description="个人资料修改" />
+    </siteMapNode>
+    <siteMapNode  title="公告新闻管理"  description="公告新闻管理" >
+      <siteMapNode url="~/Admin/News/AddNews.aspx" title="新增公告新闻"  description="申请请假" />
+      <siteMapNode url="~/Admin/News/ManaNews.aspx" title="公告新闻管理"  description="请假查询" />
+    <siteMapNode url="~/Admin/News/HomePicMana.aspx" title="首页图片管理"  description="首页图片管理" />
+    </siteMapNode>
+    <siteMapNode title="成果论文管理"  description="成果论文管理" >
+      <siteMapNode url="~/Admin/Achieve/AchieveMana.aspx" title="成果论文管理"  description="成果管理" />
+      <siteMapNode url="~/Admin/Attach/DepartMana.aspx" title="单位管理"  description="单位管理" />
+      <siteMapNode url="~/Admin/Attach/DepartShowMana.aspx" title="单位首页显示排序"  description="单位首页显示排序" />
+    </siteMapNode>
+    <siteMapNode title="其他管理"  description="其他管理" >
+      <siteMapNode url="~/Admin/DownLoad/DownLoadMana.aspx" title="下载中心管理" description="下载中心管理" />
+      <siteMapNode url="~/Admin/Attach/LinkMana.aspx" title="友情链接管理"  description="友情链接管理" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
