@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-  <siteMapNode url="" title="专家"  description="ddd">
-    <siteMapNode  title="个人信息管理"  description="个人信息管理" >
-      <siteMapNode url="~/Admin/Member/ModifyPW.aspx" title="密码修改"  description="密码修改" />
-      <siteMapNode url="~/Admin/Member/SelfInfoModify.aspx" title="个人资料修改"  description="个人资料修改" />
-    </siteMapNode>
-  </siteMapNode>
-</siteMap>
