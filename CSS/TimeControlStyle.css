@@ -1,0 +1,26 @@
+﻿
+@import url("reset.css");
+/*------------------------   时钟自定义控件样式------------------------*/
+#today_Header
+{
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #456F1C;
+    width:150px;
+	position:absolute;
+	top:10px;
+	right:0px;
+}
+
+#today_ConsulHeader
+{
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #456F1C;
+    text-align:right;
+    padding:0px 10px 0px 0px;
+    width:200px;
+	position:absolute;
+	top:10px;
+	right:0px;
+}

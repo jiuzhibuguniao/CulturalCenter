@@ -1,0 +1,112 @@
+﻿@import url("reset.css");
+
+.headerContainer {
+    display: block;
+    height: 100px;
+    width: 100%;
+    background-image: url("../Image/Admin/header_right.png");
+    background-color: #01389C;
+    background-repeat: repeat-x;
+}
+.Adminheader {
+    background-color: #AADE87;
+    background-image: url('../Image/Admin/header_left.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    position: relative;
+    width: 667px;
+    height: 100px;
+}
+
+.navContainer
+{
+	background-image:url("../Image/Admin/tdbg.png");
+	background-repeat:repeat-x;	
+	background-position:top left;
+	width:150px;
+	height:500px;
+	float:left;
+	margin-right:2px;
+	padding:10px 1px 0px 20px;
+	
+}
+.Content
+{
+	width:auto;
+	padding:5px 0px;
+	display:block;
+	margin-left:170px;
+}
+.ContentData {
+    width:100%;
+	display:block;
+    margin-left:0px;
+    margin-top:0px;
+}
+.Announce {
+    width:150px;
+	padding:0px;
+	display:block;
+	margin-right:0px;
+    height:500px;
+    position:relative;
+    float:right;
+}
+.LoginInfoContainer
+{
+	width:auto;
+	height:35px;
+	display:block;
+	position:absolute;
+    top:0px;
+    right:60px;
+	line-height:35px;
+	text-align:left;
+	color:#456F1C;
+}
+#divSCA
+{
+	position: absolute;
+    width: 700px;
+    height: 500px;
+    font-size: 12px;
+    background: #fff;
+    border: 0px solid #000;
+    z-index: 10001;
+    display: none;
+    padding:10px;
+}
+
+.FontRed
+{
+	color:Red;	
+}
+.FontBlue
+{
+	color:Blue;	
+}
+.title {
+    background-color: lightblue;
+    display: block;
+    padding: 5px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000066;
+}
+.ToAdminHome{
+    background:url('../image/Admin/sitemap_16x16.gif') no-repeat left;
+    height:30px;
+    width:140px;
+    color:#456F1C;
+    font-weight:bolder;
+    text-indent:20px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    padding:10px 0px 0px 0px;
+    display:block;
+}
+    .ToAdminHome a {
+        display:block;
+        line-height:26px;
+    }
